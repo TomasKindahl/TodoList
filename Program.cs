@@ -54,6 +54,7 @@ namespace TodoList
         static void Dynamiskt()
         {
             Console.WriteLine("Tja");
+            Console.Beep(600, 600);
         }
     }
 }
