@@ -25,7 +25,7 @@ namespace TodoList
             // Greetings:
             Console.WriteLine("Hello and welcome to todo list!");
             Console.WriteLine("To quit type 'quit', for help type 'help'!");
-
+            Console.WriteLine("Hej från mig!");
             // Declarations:
             string command;
             string[] commandWord;
@@ -55,6 +55,7 @@ namespace TodoList
         {
             Console.WriteLine("Tja");
             Console.Beep(600, 600);
+            
         }
     }
 }
