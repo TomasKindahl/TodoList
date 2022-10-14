@@ -51,5 +51,9 @@ namespace TodoList
             }
             return todoList;
         }
+        static void Dynamiskt()
+        {
+            Console.WriteLine("Tja");
+        }
     }
 }
