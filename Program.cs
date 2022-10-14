@@ -34,6 +34,10 @@ namespace TodoList
             // REPL (do-while-loop):
 
         }
+        static void AddStuff()
+        {
+            Console.WriteLine("Jag äger");
+        }
 
         private static List<Activity> ReadTodoListFile(string fileName)
         {
