@@ -32,25 +32,7 @@ namespace TodoList
             List<Activity> todoList;
 
             // REPL (do-while-loop):
-            do
-            {
-                Console.Write("> ");
-                command = Console.ReadLine();
-                commandWord = command.Split(' ');
-                if (command == "quit")
-                {
-                    Console.WriteLine("Bye!");
-                }
-                else if (commandWord[0] == "load")
-                {
-                    Console.WriteLine("Reading file {0}", commandWord[1]);
-                    todoList = ReadTodoListFile(commandWord[1]);
-                }
-                else 
-                {
-                    Console.WriteLine("Unknown command: {0}", command);
-                }
-            } while (command != "quit");
+
         }
 
         private static List<Activity> ReadTodoListFile(string fileName)
